@@ -1,5 +1,5 @@
 set :application, "button"
-set :repository,  "git@github.com:moorage/button-tsapp.git"
+set :repository,  "git@github.com:thrivesmart/button-tsapp.git"
 
 set :user, "app"
 set :use_sudo, false
