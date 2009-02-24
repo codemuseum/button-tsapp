@@ -1,0 +1,15 @@
+<% stylesheets 'button', 'button-edit' %>
+<% javascripts 'button-edit' %>
+
+<% fields_for_page_object do |f| -%>
+
+  <div class="button">
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+
+    <%= f.label :link %>
+    <%= asset_url_text_field(f, [:pages, :documents], false) %> <%= asset_change_link(f, [:pages, :documents], "...") %>
+  </div>
+
+<% end -%>
+

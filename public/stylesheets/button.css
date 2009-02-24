@@ -1,0 +1,5 @@
+.app-button div.button { text-align:center; padding:10px; font-size:1.5em; }
+.app-button div.button { margin:30px 80px; background:transparent url(/button/images/button-bg.png) bottom center repeat-x;-moz-border-radius: 10px; -webkit-border-radius: 10px; border-right:1px solid #e9e9e9;border-left:1px solid #e9e9e9;}
+.app-button div.button a { display: block; color:#444; text-shadow:1px 1px white; text-align:center; text-decoration:none;  }
+.app-button div.button a:hover {text-decoration:underline; color:#000;text-shadow:1px 1px white; }
+.app-button div.button a:active {text-decoration:underline; color:#aaa;text-shadow:-1px -1px #000; }
